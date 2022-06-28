@@ -1,6 +1,6 @@
 {
   "author": "igorlogius",
-  "description": "clear the download history on startup",
+  "description": "Clear the download history on startup",
   "icons": {
   },
   "background": {
@@ -11,5 +11,5 @@
   "permissions": [
     "downloads"
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
