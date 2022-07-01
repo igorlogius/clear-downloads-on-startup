@@ -9,7 +9,7 @@
   "manifest_version": 2,
   "name": "Clear Downloads On Startup",
   "permissions": [
-    "downloads"
+    "browsingData"
   ],
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
