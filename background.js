@@ -1,9 +1,8 @@
 /* global browser */
 
-async function onStartup() {
+function onStartup() {
     try {
-        const ids = await browser.downloads.erase({});
-        console.debug('removed download history items', ids);
+        browser.browsingData.removeDownloads({});
     }catch(e){
         console.error(e);
     }
