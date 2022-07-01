@@ -3,13 +3,15 @@
   "description": "Clear the download history on startup",
   "icons": {
   },
+  "browser_action": {},
   "background": {
 	"scripts": ["background.js"]
   },
   "manifest_version": 2,
   "name": "Clear Downloads On Startup",
   "permissions": [
-    "browsingData"
+    "downloads",
+    "history"
   ],
   "version": "1.0.4"
 }
